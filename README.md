@@ -1,62 +1,65 @@
-# Rushdullah Assolihiyyah Foundation Website
+<h1 align="center">Rushdullah Assolihiyyah Foundation Website</h1>
 
-Welcome to the official website of Rushdullah Assolihiyyah Foundation, a dedicated organization committed to promoting Islamic knowledge, fostering understanding, and building bridges between communities.
+###
 
-<h2 align="center"><span style="color:green;">Al-Rushdullah</span><span style="color:black;">Al-Solihiyyah</span></h2>
+<p align="left">Welcome to the official website of Rushdullah Assolihiyyah Foundation, a dedicated organization committed to promoting Islamic knowledge, fostering understanding, and building bridges between communities.</p>
 
-## About Us
+###
 
-At Rushdullah Assolihiyyah Foundation, our mission is to serve as a reliable resource for individuals seeking to learn about Islam, its teachings, and its rich cultural heritage. Explore the depth of Islamic knowledge through our diverse programs and resources.
+<h2 align="center">Community</h2>
 
-## Table of Contents
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Resources](#resources)
-- [Connect With Us](#connect-with-us)
+###
 
-## Features
+<p align="left">Hello World!!</p>
 
-- **Islamic Beliefs:** Gain a comprehensive understanding of the core beliefs and principles that form the foundation of Islam.
+###
 
-- **Quranic Studies:** Dive into the depths of the Holy Quran, exploring its miraculous nature, teachings, and relevance in contemporary times.
+<p align="left">Join our vibrant community and engage with like-minded individuals who share a passion for Islamic knowledge and community building.</p>
 
-- **Prophetic Tradition:** Delve into the life and teachings of Prophet Muhammad (peace be upon him) and explore the Hadith literature.
+###
 
-- **Islamic Jurisprudence:** Explore the field of Islamic law (Fiqh) and gain insight into its various schools of thought.
+<h2 align="center">Resources</h2>
 
-- **Islamic History and Civilization:** Immerse yourself in the vibrant history of Islamic civilization, from its early beginnings to its contributions in science, arts, and architecture.
+###
 
-- **Community Outreach:** Learn about our community engagement initiatives, events, and programs.
+<p align="left">Access our extensive library of educational materials, including articles, books, lectures, and videos, to enhance your understanding of Islam.</p>
 
-- **Resources:** Access a wide range of educational materials, including articles, books, lectures, and videos.
+###
 
-## Getting Started
+<h2 align="center">Connect With Us</h2>
 
-To start exploring the rich content and resources on our website, visit [Foundation Website](https://www.foundationwebsite.com).
+###
 
-## Contributing
+<p align="left">Stay updated on our latest activities and connect with us on social media:<br><br>Twitter: @YourFoundation<br>Facebook: Your Foundation</p>
 
-We welcome contributions from the community. If you're interested in contributing to our projects, follow the steps outlined in our [Contribution Guidelines](CONTRIBUTING.md).
+###
 
-## Community
+<p align="left">We believe in the power of knowledge to create positive change. Thank you for visiting the Rushdullah Assolihiyyah Foundation website. May your exploration of Islam bring you closer to the path of righteousness and inner peace.</p>
 
-Join our vibrant community and engage with like-minded individuals who share a passion for Islamic knowledge and community building.
+###
 
-## Resources
+<h2 align="left">Website Images</h2>
 
-Access our extensive library of educational materials, including articles, books, lectures, and videos, to enhance your understanding of Islam.
+###
 
-## Connect With Us
+<div align="center">
+  <img height="200" src="https://i.ibb.co/D7QZdyw/image001.png"  />
+</div>
 
-Stay updated on our latest activities and connect with us on social media:
+###
 
-- Twitter: [@YourFoundation](https://twitter.com/YourFoundation)
-- Facebook: [Your Foundation](https://www.facebook.com/YourFoundation)
+<div align="center">
+  <img height="200" src="https://i.ibb.co/syPqwGZ/image1.png"  />
+</div>
 
-We believe in the power of knowledge to create positive change. Thank you for visiting the Rushdullah Assolihiyyah Foundation website. May your exploration of Islam bring you closer to the path of righteousness and inner peace.
+###
 
----
+<div align="center">
+  <img height="200" src="https://i.ibb.co/C1pH8D1/image2.png"  />
+</div>
 
-**Note:** Replace placeholders like "path/to/your/logo.png" with the actual path to your foundation's logo.
+###
+
+<p align="left">Note: The site is yet to be uploaded, so the images are just dummy.</p>
+
+###
