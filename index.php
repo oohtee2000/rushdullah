@@ -1,10 +1,5 @@
-<?php 
+<?php
 include('admin_area/functions.php');
-
-
-
-
-
 
 ?>
 
@@ -40,7 +35,7 @@ include('admin_area/functions.php');
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
- 
+
 </head>
 
 <body>
@@ -90,208 +85,209 @@ include('admin_area/functions.php');
     <div class="col-md-8 col-sm-12">
       <section id="hero" style="background-color: rgba(255, 255, 255, 0.8) !important;">
         <!-- <div id="heroCarousel" data-bs-interval="3000" class="carousel slide carousel-fade" data-bs-ride="carousel"> -->
-    
-          <div class="bg-white" role="listbox">
-    
-            <!-- Slide 1 -->
-            <div class="carousel-item active ms-5" style="background-image: url(assets/img/rushdullah1.jpg);">
-              <div class="carousel-container" style="border-radius: 100% !important;">
-                <div class="carousel-content animate__animated animate__fadeInUp" >
-                  <h1 class="myGreen">Assallamul <span>Alaykun</span></h1><h2>Welcome to <span>Rushdullah Assolihiyyah</span></h2>
-                  <p class="fw-light">A platform dedicated to sharing knowledge and promoting understanding of the Islamic faith. Our goal is to provide a support and resources for Muslims and non-Muslims alike to learn about Islam, its beliefs, practices, and history.</p>
-                </div>
+
+        <div class="bg-white" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active ms-5" style="background-image: url(assets/img/rushdullah1.jpg);">
+            <div class="carousel-container" style="border-radius: 100% !important;">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h1 class="myGreen">Assallamul <span>Alaykun</span></h1>
+                <h2>Welcome to <span>Rushdullah Assolihiyyah</span></h2>
+                <p class="fw-light">A platform dedicated to sharing knowledge and promoting understanding of the Islamic faith. Our goal is to provide a support and resources for Muslims and non-Muslims alike to learn about Islam, its beliefs, practices, and history.</p>
               </div>
             </div>
-    
           </div>
+
+        </div>
       </section><!-- End Hero -->
     </div>
 
     <!-- style -->
     <style>
-      .myGreen{
+      .myGreen {
         color: #1bbd36;
       }
+
       #sidebar aside {
-    margin-bottom: 12%;
-    border: 1px solid #000;
-    padding: 15px;
-    border-radius: 3px;
-}
+        margin-bottom: 12%;
+        border: 1px solid #000;
+        padding: 15px;
+        border-radius: 3px;
+      }
 
-#sidebar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
-.posts.posts__list {
-    list-style: none;
-    padding-left: 0;
-}
-.posts, .posts li {
-    list-style: none;
-    margin: 0;
-}
+      #sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+      }
 
-#sidebar ul li {
-    margin: 0 0 15px;
-    font-size: 17px;
-}
-.posts li:not(:last-child) {
-    border-bottom: 1px dashed rgba(0,0,0,0.2);
-}
-.posts {
-    clear: both;
-}
-.posts li {
-    padding: 0.25em 0;
-    
-}
-.posts, .posts li {
-    list-style: none;
-    margin: 0;
-}
+      .posts.posts__list {
+        list-style: none;
+        padding-left: 0;
+      }
 
-#sidebar ul li a {
-    color: #5b5b5b;
-}
+      .posts,
+      .posts li {
+        list-style: none;
+        margin: 0;
+      }
 
-#sidebar h3 {
-    margin: -40px 0 20px;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 20px;
-    background: #1bbd36;
-    color: white;
-    text-transform: none;
-    text-align: center;
-}
+      #sidebar ul li {
+        margin: 0 0 15px;
+        font-size: 17px;
+      }
+
+      .posts li:not(:last-child) {
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+      }
+
+      .posts {
+        clear: both;
+      }
+
+      .posts li {
+        padding: 0.25em 0;
+
+      }
+
+      .posts,
+      .posts li {
+        list-style: none;
+        margin: 0;
+      }
+
+      #sidebar ul li a {
+        color: #5b5b5b;
+      }
+
+      #sidebar h3 {
+        margin: -40px 0 20px;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        background: #1bbd36;
+        color: white;
+        text-transform: none;
+        text-align: center;
+      }
     </style>
 
     <div class="col-md-4 col-sm-12">
       <br><br><br>
       <div class="sidebar" id="sidebar">
-        
+
 
         <aside id="" class="posts">
           <ul class="">
 
             <?php
 
-              $rows = $news->get_post(null, 4, null);
+            $rows = $news->get_post(null, 4, null);
 
-              foreach ($rows as $row)
-              {
-                ?>
-                   <li>
-                    <div class="row" style="border-radius: 10px;">
-                      
+            foreach ($rows as $row) {
+            ?>
+              <li>
+                <div class="row" style="border-radius: 10px;">
 
-                        <img src="assets/img/news/<?= $row['news_image']?>" style="width: 5px !important;" class="col"> 
-                      
-                    
-                   
-                       <a class="col-9" href="news-single.php?id=<?=$row['id']?>" class="title"><?= $row['news_title'] ?></a>
-                       <!-- <a href='news-single.php?id=".$row['id']."'>".$row['news_title']."</a> -->
-                       </div>
 
-                     
-                    </li>
+                  <img src="assets/img/news/<?= $row['news_image'] ?>" style="width: 5px !important;" class="col">
 
-               
-                <?php
-              }
+                  <a class="col-9" href="news-single.php?id=<?= $row['id'] ?>" class="title"><?= $row['news_title'] ?></a>
+                  <!-- <a href='news-single.php?id=".$row['id']."'>".$row['news_title']."</a> -->
+                </div>
+
+              </li>
+
+            <?php
+            }
             ?>
           </ul>
         </aside>
 
-          <aside id="" class="myGreen">
-            <h3 class="">Upcomings </h3>
-            <div class="posts" id="">
-              <div class="" id="">
-                <ul>
-                  <li>
-                    <a href="#">The Upcomming Events 1</a>
-                  </li>
+        <aside id="" class="myGreen">
+          <h3 class="">Upcomings </h3>
+          <div class="posts" id="">
+            <div class="" id="">
+              <ul>
+                <li>
+                  <a href="#">The Upcomming Events 1</a>
+                </li>
 
-                  <li>
-                    <a href="#">The Upcomming Events 2</a>
-                  </li>
-                </ul>
-                <!-- No event found!  -->
-              </div>
-              </div>
-          </aside>
-
-
-
+                <li>
+                  <a href="#">The Upcomming Events 2</a>
+                </li>
+              </ul>
+              <!-- No event found!  -->
+            </div>
+          </div>
+        </aside>
 
 
       </div>
     </div>
   </div>
-  
+
 
   <main id="main">
 
-<!--  -->
-<style>
-  
-  .section-title {
-    text-align: center;
-    padding-bottom: 30px;
-}
+    <!--  -->
+    <style>
+      .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+      }
 
-.section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-}
+      .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+      }
 
-.section-title p {
-    margin-bottom: 0;
-}
+      .section-title p {
+        margin-bottom: 0;
+      }
 
-.about .content ul {
-    list-style: none;
-    padding: 0;
-}
+      .about .content ul {
+        list-style: none;
+        padding: 0;
+      }
 
-.about .content ul li {
-    padding-left: 28px;
-    position: relative;
-}
+      .about .content ul li {
+        padding-left: 28px;
+        position: relative;
+      }
 
-.about .content .btn-learn-more {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 5px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #006fbe;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #006fbe;
-}
+      .about .content .btn-learn-more {
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 12px 32px;
+        border-radius: 5px;
+        transition: 0.3s;
+        line-height: 1;
+        color: #006fbe;
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+        margin-top: 6px;
+        border: 2px solid #006fbe;
+      }
 
-.ri-check-double-line{
-  color: blue !important;
-}
-</style>
-
+      .ri-check-double-line {
+        color: blue !important;
+      }
+    </style>
 
 
 
-     <section id="about" class="about">
+
+    <section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
@@ -312,7 +308,7 @@ include('admin_area/functions.php');
               <li><i class="ri-check-double-line"></i> A society which respects the rights of children and youth: a society which promotes positive and enabling environment for children and youth to grow and develop into responsible adults; a sanitized society.</li>
               <li><i class="ri-check-double-line"></i>A society which respects the rights of children and youth: a society which promotes positive and enabling environment for children and youth to grow and develop into responsible adults; a sanitized society.</li>
             </ul>
-            
+
           </div>
         </div>
 
@@ -350,7 +346,7 @@ include('admin_area/functions.php');
             </ul>
           </div>
 
-         
+
 
         </div>
       </div>
@@ -394,7 +390,7 @@ include('admin_area/functions.php');
 
 
 
-<?php 
+<?php
 
 
 echo md5("oluwatosin2000");
